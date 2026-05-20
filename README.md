@@ -97,6 +97,6 @@ The MCP server's transport protocol is configurable via the `MCP_TRANSPORT` envi
 
 ### Contributing
 
-- SEE [`CONTRIBUTING.MD`](CONTRIBUTING.MD) for details.
+- SEE [`CONTRIBUTING.MD`](/CONTRIBUTING.md) for details.
 
 *Copyright (c) 2025 - Cloudera, Inc. All rights reserved.*
