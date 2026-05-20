@@ -58,6 +58,31 @@ To use this server with the Claude Desktop app, add the following configuration 
 
 For Option 2, replace `/path/to` with your path to this repository. Set the environment variables according to your Impala configuration.
 
+### Local Development
+
+```bash
+# Install uv if you haven't already
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Install dependencies
+uv sync
+
+# Run the server (stdio transport, default)
+uv run src/iceberg_mcp_server/server.py
+```
+
+You can also create a `.env` file in the project root with your credentials:
+
+```env
+IMPALA_HOST=coordinator-xxx.dw-xxx.a123-4b5c.cloudera.site
+IMPALA_PORT=443
+IMPALA_USER=yourworkloaduser
+IMPALA_PASSWORD=yourpassword
+IMPALA_DATABASE=default
+# Optional: Change transport if needed (default is stdio)
+# MCP_TRANSPORT=stdio
+```
+
 ## Usage with AI frameworks
 
 The `./examples` folder contains several examples how to integrate this MCP Server with common AI Frameworks like LangChain/LangGraph, OpenAI SDK.
