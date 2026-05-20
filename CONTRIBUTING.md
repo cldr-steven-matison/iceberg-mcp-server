@@ -34,4 +34,3 @@ This is an example of a PR process for contributing changes from your forked `ic
 4. Open a **Pull Request**:
    - Go to your fork on GitHub → Compare & pull request → Base repository: `cloudera/iceberg-mcp-server` → Base branch: `main`
    - Title: "Update Readme for Local Install + CONTRIBUTING"
-   - Link back to this blog post for context.
