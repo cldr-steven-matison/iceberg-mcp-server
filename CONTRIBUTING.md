@@ -1,4 +1,4 @@
-### 1. Contributing
+### Contributing
 
 This is an example of a PR process for contributing changes from your forked `iceberg-mcp-server` repo's `develop` branch back to the main repo.
 
