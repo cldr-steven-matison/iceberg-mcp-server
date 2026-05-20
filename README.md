@@ -95,4 +95,8 @@ The MCP server's transport protocol is configurable via the `MCP_TRANSPORT` envi
 - `sse` — use Server-Sent Events (SSE) transport. Useful for existing web-based deployments that rely on SSE.
 
 
+### Contributing
+
+- SEE [`CONTRIBUTING.MD`](CONTRIBUTING.MD) for details.
+
 *Copyright (c) 2025 - Cloudera, Inc. All rights reserved.*
