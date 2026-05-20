@@ -79,8 +79,6 @@ IMPALA_PORT=443
 IMPALA_USER=yourworkloaduser
 IMPALA_PASSWORD=yourpassword
 IMPALA_DATABASE=default
-# Optional: Change transport if needed (default is stdio)
-# MCP_TRANSPORT=stdio
 ```
 
 ## Usage with AI frameworks
